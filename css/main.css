@@ -1,0 +1,39 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    background: #4249ed;
+}
+
+#toggle_btn,
+.menu a{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+.menu a{
+    background-color: #fff;
+    height: 70px;
+    width: 70px;
+    font-size: 22px;
+    color: #4249ed;
+    text-decoration: none;
+    top: 30px;  left: 30px;
+    transition: 0.5s;
+}
+
+#toggle_btn{
+    background: #0f1730;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+    border: none;
+    font-size: 40px;
+    top: 15px;  left: 15px;
+    transition: 0.3s;
+}
+
+.active{
+    transform: rotate(45deg);
+}
